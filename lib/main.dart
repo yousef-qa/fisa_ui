@@ -1,4 +1,5 @@
-import 'package:fisa_ui_test/Parent/ParentProfile.dart';
+import 'package:fisa_ui_test/NewChange/ParentProfile.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ParentProfilePage(),
+      home: ParentProfile(),
       debugShowCheckedModeBanner: false,
     );
   }
